@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Visits</title>
+</head>
+<body style="text-align: center; margin-top: 50px;">
+    <div style="background-color: red; padding: 10px;">
+        <h1>زيارات صفحات الويب</h1>
+    </div>
+    
+    <div style="background-color: green; padding: 10px; margin-top: 20px;">
+        <form action="/submit" method="post">
+            <label for="url">ادخال رابط موقع الويب:</label><br><br>
+            <input type="text" id="url" name="url" required><br><br>
+            <label for="views">عدد المشاهدات:</label><br><br>
+            <input type="number" id="views" name="views" min="3" max="20" required><br><br>
+            <input type="submit" value="ارسال">
+        </form>
+    </div>
+</body>
+</html>
